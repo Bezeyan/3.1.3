@@ -1,0 +1,61 @@
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <td>
+<div class="container" id="userAddForm">
+    <div class="row justify-content-center">
+        <div class="col-4 text-center">
+            <form role="form" onsubmit="return false;">
+                <div class="form-group marginTop">
+                    <label >First name</label>
+                    <input class="form-control"
+                           type="text"
+                           name="userName"
+                           id="newUserName"
+                           placeholder="user name"/>
+                </div>
+                <div class="form-group marginTop">
+                    <label >Last name</label>
+                    <input class="form-control"
+                           type="text"
+                           name="userLastName"
+                           id="newUserLastName"
+                           placeholder="lastname"/>
+                </div>
+                <div class="form-group marginTop">
+                    <label >Password</label>
+                    <input class="form-control"
+                           type="text"
+                           name="password"
+                           id="newPassword"
+                           placeholder="password"/>
+                </div>
+
+                <div class="form-group marginTop">
+                    <label>Age</label>
+                    <input class="form-control" id="newAge" type="text"
+                           name="age"
+                           placeholder="age"/>
+                </div>
+                <div class="form-group marginTop">
+                    <label>Email</label>
+                    <input class="form-control" id="newEmail" type="text"
+                           name="email"
+                           placeholder="email"/>
+                </div>
+                <div class="form-label-group marginTop">
+                    <label>Role</label>
+                    <select multiple class="form-control" id="newRoles" name="roles[]"></select>
+                </div>
+                <div class="marginTop">
+                    <button type="submit"
+                            class="btn btn-lg btn-success">Add new user
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        </td>
+    </tr></thead>
+</table>

@@ -1,0 +1,63 @@
+<div id="deleteModal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete user</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="container modal-body">
+                <div class="row justify-content-center">
+                    <div class="col-6 text-center">
+                        <div class="form-group marginTop">
+                            <strong><label for="userIdDelete">Id</label></strong>
+                            <input class="form-control" type="text"
+                                   id="userIdDelete"
+                                   name="id" readonly/>
+                        </div>
+                        <div class="form-group marginTop">
+                            <strong><label for="userNameDelete">First
+                                name</label></strong>
+                            <input class="form-control" type="text"
+                                   id="userNameDelete"
+                                   name="userName" readonly/>
+                        </div>
+                        <div class="form-group marginTop">
+                            <strong> <label for="lastNameDelete">Last
+                                name</label></strong>
+                            <input class="form-control" type="text"
+                                   id="lastNameDelete"
+                                   name="userLastName" readonly/>
+                        </div>
+                        <div class="form-group marginTop">
+                            <strong> <label
+                                    for="passwordDelete">Password</label></strong>
+                            <input class="form-control" type="text"
+                                   id="passwordDelete"
+                                   name="password" readonly/>
+                        </div>
+                        <div class="form-group marginTop">
+                            <strong> <label
+                                    for="ageDelete">Age</label></strong>
+                            <input type="text" class="form-control"
+                                   id="ageDelete" name="age" readonly>
+                        </div>
+                        <div class="form-group marginTop">
+                            <strong> <label
+                                    for="emailDelete">Email</label></strong>
+                            <input type="text" class="form-control"
+                                   id="emailDelete" name="email" readonly>
+                        </div>
+                        <div class="form-label-group marginTop">
+                            <label>Role</label>
+                            <select multiple class="form-control" id="roles" name="roles[]" disabled></select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn submit">Action</button>
+            </div>
+        </div>
+    </div>
+</div>
